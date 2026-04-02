@@ -4,7 +4,7 @@ This project demonstrates a lightweight UI test automation framework built using
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 The goal of this project is to demonstrate practical automation engineering skills, including:
 
@@ -13,11 +13,9 @@ The goal of this project is to demonstrate practical automation engineering skil
 - Structuring reusable and maintainable test components
 - Simulating real-world test scenarios and edge cases
 
-This project reflects how automated testing can be applied to ensure reliability and consistency in web applications.
-
 ---
 
-## 🚀 Features
+## Features
 
 - Automated UI testing using Playwright (Chromium)
 - Pytest-based test execution
@@ -27,7 +25,7 @@ This project reflects how automated testing can be applied to ensure reliability
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 - Python 3.x  
 - Playwright  
@@ -36,7 +34,7 @@ This project reflects how automated testing can be applied to ensure reliability
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 playwright-automation-framework/
 │
@@ -49,7 +47,7 @@ playwright-automation-framework/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Install dependencies:
 
@@ -60,7 +58,7 @@ playwright install
 
 ---
 
-## ▶️ Running Tests
+## Running Tests
 
 Run all tests:
 ```bash
@@ -79,7 +77,7 @@ pytest tests/test_add_to_cart.py
 
 ---
 
-## 🧪 Example Test Coverage
+## Example Test Coverage
 
 This framework includes tests that validate:
 
@@ -90,7 +88,7 @@ This framework includes tests that validate:
 
 ---
 
-## 📌 Future Enhancements
+## Future Enhancements
 
 - Implement Page Object Model (POM)
 - Add test reporting (HTML / Allure)
@@ -99,13 +97,13 @@ This framework includes tests that validate:
 
 ---
 
-## 🧠 Approach
+## Approach
 
 This framework was designed with a focus on readability, reusability, and scalability. Test logic is separated from setup using fixtures, and workflows are structured to reflect real user behavior rather than isolated actions.
 
 ---
 
-## 👤 Author
+## Author
 
 Gregory G. Garland  
 GitHub: https://github.com/Initiate64

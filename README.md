@@ -101,7 +101,9 @@ This framework includes tests that validate:
 
 This framework was designed with a focus on readability, reusability, and scalability. Test logic is separated from setup using fixtures, and workflows are structured to reflect real user behavior rather than isolated actions.
 
----
+### Design Considerations
+This framework is structured using the Page Object Model (POM) to ensure scalability, maintainability, and readability. Each page encapsulates its own locators and actions, reducing duplication and making tests easier to extend. Pytest fixtures provide clean setup and teardown of browser sessions, while the test suite is organized to support incremental growth as additional scenarios are added. The structure allows new pages, tests, and utilities to be introduced with minimal refactoring, reflecting real-world automation design principles.
+
 
 ## Author
 
